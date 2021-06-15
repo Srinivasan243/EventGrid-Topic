@@ -15,8 +15,8 @@ namespace SendEventGrid
     {
         static void Main(string[] args)
         {
-            string endpoint = "https://pastracking-eventgrid.westeurope-1.eventgrid.azure.net/api/events";
-            string SAS = "FzkqkCCH9bQg7b5bk03PEurnCM3OEV7TcKlBCMECRO4=";
+            string endpoint = "%Event Grid Topic Endpoint%";
+            string SAS = "%SAS Key%";
 
             Console.WriteLine($"Enter No of Message will send to Event Grid\n");
             var Count = Convert.ToInt32(Console.ReadLine());
